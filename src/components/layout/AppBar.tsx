@@ -17,7 +17,6 @@ export function AppBar() {
           className="h-full w-auto object-contain"
         />
       </Link>
-
       {/* Desktop nav */}
       <nav className="hidden md:flex gap-6 text-sm font-medium">
         <Link href="/#services" className="hover:text-primary transition">Servicios</Link>

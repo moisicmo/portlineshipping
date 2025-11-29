@@ -2,6 +2,7 @@ import { AppBar } from "@/components/layout/AppBar";
 import "./globals.css";
 import { Footer } from "@/components/layout/Footer";
 import SupportWidget from "@/components/FloatingButton";
+import ExchangeWidget from "@/components/ExchangeWidget";
 
 
 
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="es">
       <body className="min-h-screen flex flex-col">
         <AppBar />
+        <ExchangeWidget />
         <SupportWidget
           color="#DA072A"
           items={[
