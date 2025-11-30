@@ -19,10 +19,11 @@ export default function ExchangeWidget() {
         fixed top-24 right-6 z-40
         bg-white shadow-lg border border-gray-200
         rounded-xl px-4 py-2 text-sm font-medium
+        min-w-[160px]
       "
     >
-      <p className="text-green-600">Compra: {data.buy} BOB</p>
-      <p className="text-red-600">Venta: {data.sell} BOB</p>
+      <p className="text-gray-700 font-semibold mb-1">USDT → BOB</p>
+      <p className="text-green-600 text-base">Compra: {data.buy} BOB</p>
     </div>
   );
 }
